@@ -7,25 +7,42 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+
+     <!-- navigation bar  -->
     <nav>
+      <div class="the-header">
       <div class="logo">
         <img src="images/Logo.png" alt="logo" height="36" />
       </div>
-
+      <div class="the-burgers">
+        <img src="images/Hamburger.png" width 30px height="30px"  alt="Hamburger" class="menu-icon" onclick="showSidebar()">
+        <img src="images/close_30dp_000000_FILL0_wght400_GRAD0_opsz24.png" width 30px height="30px" class="close-menu-icon" onclick="hideSidebar()" alt="menuSidebar">
+      </div>
+    </div>
+    <div class="later-nav">
       <div class="navlinks">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#about-me">About me</a></li>
-          <li><a href="#">Testimonials</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
         </ul>
       </div>
 
       <div class="button">
        <a href="cv/precious CV.pdf" download="cv/precious CV.pdf"> <button>Resume</button></a>
       </div>
-    </nav>
+    </div>
+    </nav> 
 
+
+
+
+
+
+
+
+    <!-- Homepage  section begins -->
     <section class="home-page">
       <div class="left-side">
         <p class="greeting">Hey, i am Precious</p>
@@ -40,7 +57,7 @@
           and dedication.
         </p>
 
-        <button>Get in Touch</button>
+        <button class="getin">Get in Touch</button>
       </div>
       <div class="right-side">
         <img src="images/mypic.png" alt="my picture" height="500" />
@@ -51,6 +68,9 @@
     <br>
     <br>
     <br>
+
+     <!-- my skills section begins  -->
+
     <section class="portfolio" id="portfolio">
       <p class="greeting">My Skills</p>
       <h2 class="expert">My Expertise</h2>
@@ -61,10 +81,10 @@
             <img src="images/feather-pen 1.png" alt="icon" height="50" />
           </div>
 
-          <h1>Strategy and Direction</h1>
-          <p>
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, <br />
-            consectetur adipisicing elit. Odio, laborum.
+          <h1 class="greeting"> Strategy and Direction</h1>
+          <p class="explain-tire">
+            I excel in strategy, organization,<br> and direction, projects are efficiently planned and successfully executed. 
+           
           </p>
         </div>
 
@@ -73,10 +93,10 @@
             <img src="images/tag 1.png" alt="icon" height="50" />
           </div>
 
-          <h1>Strategy and Direction</h1>
-          <p>
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, <br />
-            consectetur adipisicing elit. Odio, laborum.
+          <h1 class="greeting">Graphics Design</h1>
+          <p class="explain-tire">
+            I am a creative graphics designer skilled in crafting visually appealing and impactful designs. 
+            
           </p>
         </div>
 
@@ -85,10 +105,9 @@
             <img src="images/tag 1.png" alt="icon" height="50" />
           </div>
 
-          <h1>Strategy and Direction</h1>
-          <p>
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, <br />
-            consectetur adipisicing elit. Odio, laborum.
+          <h1 class="greeting">Public Speaking</h1>
+          <p class="explain-tire">
+            I am an experienced public speaker with a talent for engaging clear, impactful and inspiring audiences.
           </p>
         </div>
         <div class="cards">
@@ -96,10 +115,9 @@
             <img src="images/tag 1.png" alt="icon" height="50" />
           </div>
 
-          <h1>Strategy and Direction</h1>
-          <p>
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, <br />
-            consectetur adipisicing elit. Odio, laborum.
+          <h1 class="greeting">Web development</h1>
+          <p class="explain-tire">
+           I am a skilled web developer with expertise in creating responsive, and visually appealing web solutions.
           </p>
         </div>
       </div>
@@ -109,129 +127,183 @@
       <br />
     </section>
 
+    <!-- /* About me section begins */ -->
     <section class="about-me" id="about-me">
       <div class="aboutme-img">
-        <img src="images/About Me.png" alt="aboutme-img" height="500" />
+        <img src="images/mypic.png" alt="aboutme-img" />
       </div>
-
+    
       <div class="about">
-        <p>About</p>
-        <br />
-        <h2>About Me</h2>
-        <p class="aboutme">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-          consectetur perspiciatis, nisi eaque voluptatibus nulla? Lorem ipsum
-          dolor sit amet consectetur, adipisicing elit. Adipisci voluptatum
-          nobis aliquam, numquam rem, repellendus non voluptate error veritatis
-          quia omnis vero harum commodi magni unde sapiente facere! Delectus,
-          at.
+        <p class="greeting-abt">About</p>
+        <h2 class="expert">About Me</h2>
+        <p class="explain-tire">
+          My name is Aondona Precious Kumawuese, an electrical/electronics student, podcaster, and public speaker. As a twin who loves music, playing badminton, and personal development, I am passionate about impacting people. I am a Christian who loves Jesus and strives to inspire others through my diverse interests and skills.
         </p>
       </div>
     </section>
-
+    
+    <!-- Projects Section -->
     <section class="projects">
-
-      <p class="greeting">Recent Projects</p>
-      <h2 class="expert">My Portfolio</h2>
-
-      <div class="flex-boxes">
-        <div class="cards">
+      <p class="greeting-abt">Recent Projects</p>
+      <h2 class="greeting">My Portfolio</h2>
+    
+      <div class="boxes">
+        <div class="cards-port">
           <div class="images-pro">
-            <img src="images/Placeholder/Image-2.png" alt="icon" height="200" />
+            <img src="images/Placeholder/Image-2.png" alt="icon" />
           </div>
-
-          <h1>Ahuse</h1>
-          <p>
+          <h1 class="greeting">Ahuse</h1>
+          <p class="explain-tire">
             Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, <br />
             consectetur adipisicing elit. Odio, laborum.
           </p>
         </div>
-
-        <div class="cards">
+    
+        <div class="cards-port">
           <div class="images-pro">
-            <img src="images/Placeholder/Image.png" alt="icon" height="200" />
+            <img src="images/Placeholder/Image.png" alt="icon" />
           </div>
-
-          <h1>App Dashboard</h1>
-          <p>
+          <h1 class="greeting">App Dashboard</h1>
+          <p class="explain-tire">
             Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, <br />
             consectetur adipisicing elit. Odio, laborum.
           </p>
         </div>
-
-        
-        <div class="cards">
+    
+        <div class="cards-port">
           <div class="images-pro">
-            <img src="images/Placeholder/Image-1.png" alt="icon" height="200" />
+            <img src="images/Placeholder/Image-1.png" alt="icon" />
           </div>
-
-          <h1>Easy Rent</h1>
-          <p>
+          <h1 class="greeting">Easy Rent</h1>
+          <p class="explain-tire">
             Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, <br />
             consectetur adipisicing elit. Odio, laborum.
           </p>
         </div>
       </div>
-
-      <br />
-      <br />
-      <br />
     </section>
-
+    
+    <!-- Testimonials Section -->
     <section class="testimonials">
-      <div class="cards-test">
-          
-       
-       <p class="greeting">Clients  Feedbacks</p>
-      <h2 class="expert">Customers Testimonials</h2>
-      
-<div class="images-testi">
-  <img src="" alt="customer testimonials">
-</div>
-          <h1>Easy Rent</h1>
-          <p>
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, <br />
-            consectetur adipisicing elit. Odio, laborum.
-          </p>
+      <div class="test">
+        <h2 class="greeting-abt">Client Feedback</h2>
+        <p class="greeting">Customer Testimonials</p>
+      </div>
+    
+      <div class="testimonial-container">
+        <div class="testimonial">
+          <div class="stars">★★★★★</div>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra."</p>
+          <div class="customer-info">
+            <img src="images/Avatar Image.png" alt="Dianne Russell" />
+            <div>
+              <h3>Dianne Russell</h3>
+              <p>Starbucks</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="testimonial">
+          <div class="stars">★★★★★</div>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra."</p>
+          <div class="customer-info">
+            <img src="images/Avatar Image-1.png" alt="Kristin Watson" />
+            <div>
+              <h3>Kristin Watson</h3>
+              <p>Louis Vuitton</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="testimonial">
+          <div class="stars">★★★★★</div>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra."</p>
+          <div class="customer-info">
+            <img src="images/Avatar Image-2.png" alt="Kathryn Murphy" />
+            <div>
+              <h3>Kathryn Murphy</h3>
+              <p>McDonald's</p>
+            </div>
+          </div>
         </div>
       </div>
-         </div>
     </section>
-
-  
-<section class="form">
-    <div>
-  <p class="greeting">Get in Touch</p>
-      <h2 class="expert">Contact ME</h2>
-
-  <form action="https://public.herotofu.com/v1/87fdd140-66ca-11ef-b675-51969bcd4265" method="post" accept-charset="UTF-8">
-    <div class="Names">
- <input type="text" label="Firstname" placeholder="Firstname" name="Firstname" class="name">
-  <input type="text" label="Lastname" placeholder="Lastname" name="Lastname" class="name">
-    </di>
-
-    <div class="contacts">git
-      <input type="email" class="contact" name="Email" placeholder="Email">
-       <input type="number" class="contact" name="Phonenumber" placeholder="Phonenumber">
-    </div>
-
-    <select name="service" id="select" label="select" >
-      <option value="website Dev">Website developer</option>
-      <option value="Mobile Dev">Mobile developer</option>
-      <option value="UI">UI/UX Designer</option>
-      <option value="graphics">Graphics Designer</option>
-    </select>
-
-    <br>
-
-    <textarea class="message" placeholder="Enter an email"></textarea>
-
-    <br>
-   <div>
-   <input type="submit" value="submit" class="submit">
-   </div>
-  </form>
-  </div>
-</section>
+    
+    <!-- Form Section -->
+    <section class="form">
+      <p class="greeting">Get in Touch</p>
+      <h2 class="expert">Contact Me</h2>
+    
+      <form action="https://public.herotofu.com/v1/87fdd140-66ca-11ef-b675-51969bcd4265" method="post">
+        <div class="Names">
+          <input type="text" placeholder="Firstname" name="Firstname" class="name" />
+          <input type="text" placeholder="Lastname" name="Lastname" class="name" />
+        </div>
+    
+        <div class="contacts">
+          <input type="email" name="Email" class="contact" placeholder="Email" />
+          <input type="number" name="Phonenumber" class="contact" placeholder="Phonenumber" />
+        </div>
+    
+        <select name="service" id="select" >
+          <option value="Select">Select an option</option>
+          <option value="website Dev">Website developer</option>
+          <option value="Mobile Dev">Mobile developer</option>
+          <option value="UI">UI/UX Designer</option>
+          <option value="graphics">Graphics Designer</option>
+        </select>
+    
+        <textarea name="message" placeholder="Enter an email"></textarea>
+    
+        <input type="submit" value="Submit" class="submit" />
+      </form>
+    </section>
+    
   </body>
+  <script>
+    function showSidebar(){
+      let menuSidebar = document.querySelector('.menu-icon')
+      menuSidebar.style.display = 'none';
+      let xBurger = document.querySelector('.close-menu-icon')
+      xBurger.style.display = 'block';
+      let navbar = document.querySelector('.later-nav')
+      navbar.style.display = 'block';
+      
+    }
+    function hideSidebar(){
+      let menuSidebar = document.querySelector('.menu-icon')
+      menuSidebar.style.display = 'block';
+      let xBurger = document.querySelector('.close-menu-icon')
+      xBurger.style.display = 'none';
+      let navbar = document.querySelector('.later-nav')
+      navbar.style.display = 'none';
+      
+    }
+    function handleResize() {
+  let navbar = document.querySelector('.later-nav');
+  let menuSidebar = document.querySelector('.menu-icon');
+  let xBurger = document.querySelector('.close-menu-icon');
+
+  // Check the screen width
+  if (window.innerWidth > 900) { // 768px or larger is the breakpoint for regular navbar
+    // Reset the navbar to its original state
+    navbar.style.display = 'flex'; // or whatever default display is
+    menuSidebar.style.display = 'none';
+    xBurger.style.display = 'none';
+  } else {
+    // If the screen is smaller than 768px, ensure the menu is hidden
+    if (navbar.style.display !== 'none') {
+      navbar.style.display = 'none';
+      menuSidebar.style.display = 'block';
+      xBurger.style.display = 'none';
+    }
+  }
+}
+
+// Add event listener to handle resize
+window.addEventListener('resize', handleResize);
+
+// Call handleResize once on page load to set the correct state
+handleResize();
+  </script>
 </html>
